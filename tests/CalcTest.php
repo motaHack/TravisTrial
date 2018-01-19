@@ -26,7 +26,7 @@ class CalcTest extends TestCase
     public function testDivision()
     {
       $calc = new Calc();
-      $this->assertEquals($calc->multi(6,2),3);
+      $this->assertEquals($calc->division(6,2),3);
     }
 
 }
