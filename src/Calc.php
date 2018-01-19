@@ -43,6 +43,7 @@ class Calc {
         $a = $b;
         $b = $c;
       }
+      echo $sum;
       return $sum;
     }
 }
