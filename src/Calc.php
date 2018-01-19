@@ -31,8 +31,8 @@ class Calc {
 
     function euler2() {
       $sum = 0;
-      $a = 1;
-      $b = 2;
+      $a = 0;
+      $b = 1;
       $c = 0;
       while($c < 4000000){
         $c = $a + $b;
@@ -43,7 +43,6 @@ class Calc {
         $a = $b;
         $b = $c;
       }
-      echo $sum;
       return $sum;
     }
 }
