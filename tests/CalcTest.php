@@ -32,7 +32,13 @@ class CalcTest extends TestCase
     public function testEuler1()
     {
       $calc = new Calc();
-      $this->assertEquals($calc->euler(),233168);
+      $this->assertEquals($calc->euler1(),233168);
+    }
+    
+    public function testEuler2()
+    {
+      $calc = new Calc();
+      $this->assertEquals($calc->euler2(),4613732);  
     }
 }
 ?>
