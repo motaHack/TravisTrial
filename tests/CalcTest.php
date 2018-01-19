@@ -28,6 +28,11 @@ class CalcTest extends TestCase
       $calc = new Calc();
       $this->assertEquals($calc->division(6,2),3);
     }
-
+    
+    public function testEuler1()
+    {
+      $calc = new Calc();
+      $this->assertEquals($calc->euler(),233168);
+    }
 }
 ?>
